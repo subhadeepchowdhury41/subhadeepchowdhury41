@@ -298,6 +298,10 @@ export const education = [
   },
 ];
 
-export const projects = [];
+export const projects = [{
+  id: 0,
+  title: "Veridocs",
+  tags: ["Flutter", "Firebase", "Django", "REST API", "GCP"],
+}];
 
 export const TimeLineData = [];
