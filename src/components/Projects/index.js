@@ -28,9 +28,9 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'mobile app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('mobile app')}>MOBILE APP'S</ToggleButton>
+            <ToggleButton active value="mobile app" onClick={() => setToggle('mobile app')}>MOBILE APP'S</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>MOBILE APP'S</ToggleButton>
+            <ToggleButton value="mobile app" onClick={() => setToggle('mobile app')}>MOBILE APP'S</ToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?
