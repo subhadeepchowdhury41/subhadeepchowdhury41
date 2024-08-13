@@ -13,7 +13,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/subhadeepchowdhury41",
   resume:
-    "https://drive.google.com/file/d/1eEhK8DKB8vYNj_sbkzyIrGXze8UrBK0R/view?usp=sharing",
+    "https://drive.google.com/file/d/14Ian0fNKGWkUuUfIo_dSABRiasZaBjia/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/subhadeep-chowdhury-4a54a0205/",
   twitter: "https://twitter.com/subhadeepchowd6",
   insta: "https://www.instagram.com/subhadeep9809/",
@@ -274,6 +274,40 @@ export const experiences = [
       "Node.js",
       "Bcrypt.js"
     ]
+  },
+  {
+    id: 3,
+    img: "",
+    role: "Full-stack Developer",
+    company: "Cehpoint Elearning and Tech Solutions",
+    date: "Feb 2023 – Dec 2023",
+    desc: "Developing top notch applications for customers around the globe",
+    skills: [
+      "Flutter",
+      "React.js",
+      "React Native",
+      "Next.js",
+      "AWS/GCP",
+      "Firebase",
+      "Node.js",
+      "NestJs",
+      "PostgreSQL",
+      "MySQL"
+    ]
+  },
+  {
+    id: 4,
+    img: "",
+    role: "Mobile Developer",
+    company: "Webskitters Technologies Private Limited",
+    date: "May 2024 – June 2024",
+    desc: "Developing and deploying clean, scalable, robust and secure mobile (Android/iOS) applications",
+    skills: [
+      "Flutter",
+      "React Native",
+      "MongoDB",
+      "Node.js"
+    ]
   }
 ];
 
@@ -283,7 +317,7 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUi5HRuZ8EUlhYEQ5jxHZTadFbt7nLzuJDjw&usqp=CAU",
     school: "Indian Institute of Information Technology, Kalyani",
     date: "Dec 2020 - July 2024",
-    grade: "7.5 CGPA",
+    grade: "7.6 CGPA",
     desc: "I am parsuing my  Bachelor's degree in Computer Science and Engineering at Indian Institute of Information Technology, Kalyani with a CGPA  of 7.5. ",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
@@ -300,8 +334,67 @@ export const education = [
 
 export const projects = [{
   id: 0,
-  title: "Veridocs",
+  title: "Veridocs App",
+  category: "mobile app",
+  github: "https://github.com/subhadeepchowdhury41/veridox.git",
+  webapp: "https://play.google.com/store/apps/details?id=com.reignsys.veridocs&pcampaignid=web_share",
   tags: ["Flutter", "Firebase", "Django", "REST API", "GCP"],
+}, {
+  id: 1,
+  title: "Veridocs Admin",
+  category: "web app",
+  github: "https://github.com/subhadeepchowdhury41/veridox-admin.git",
+  webapp: "veridocs.in",
+  tags: ["React", "Firebase", "Django", "REST API", "GCP"],
+}, {
+  id: 2,
+  title: "Awesome Notes",
+  category: "mobile app",
+  github: "https://github.com/subhadeepchowdhury41/awesome-notes-app.git",
+  webapp: "https://awesome-notes-dcf59.web.app/",
+  tags: ["Flutter", "NestJS", "MongoDB", "REST API", "Vercel"],
+}, {
+  id: 3,
+  title: "My Foodbox",
+  category: "mobile app",
+  github: "https://github.com/subhadeepchowdhury41/my-food-box.git",
+  webapp: "",
+  tags: ["Flutter", "Node.js", "GetX", "Google Maps API", "REST API", "Razorpay Integration", "Push Notification", "Realtime"],
+}, {
+  id: 3,
+  title: "My Foodbox Backend",
+  category: "web app",
+  github: "https://github.com/subhadeepchowdhury41/myfoodbox-backend.git",
+  webapp: "",
+  tags: ["Flutter", "Node.js", "AuroraSQL", "REST API", "AWS/GCP"],
+}, {
+  id: 4,
+  title: "Zenipay",
+  category: "mobile app",
+  github: "https://github.com/subhadeepchowdhury41/zenipay.git",
+  webapp: "",
+  tags: ["Flutter", "Firebase", "Notifications", "Stripe Integration"],
+}, {
+  id: 5,
+  title: "Flipr Employee Management",
+  category: "mobile app",
+  github: "https://github.com/subhadeepchowdhury41/flipr_employee_managment.git",
+  webapp: "",
+  tags: ["Flutter", "Provider", "REST API"],
+}, {
+  id: 6,
+  title: "Foodbox Admin Collection",
+  category: "mobile app",
+  github: "https://github.com/subhadeepchowdhury41/food-box-admin-collection.git",
+  webapp: "https://awesome-notes-dcf59.web.app/",
+  tags: ["Flutter", "Websockets", "REST API", "S3"],
+}, {
+  id: 7,
+  category: "mobile app",
+  title: "Finstructor",
+  github: "https://github.com/subhadeepchowdhury41/Finstructor.git",
+  webapp: "",
+  tags: ["Flutter", "Plaid API", "Firebase", "Webhooks"],
 }];
 
 export const TimeLineData = [];
