@@ -1,6 +1,6 @@
 # Hi there! 👋 I'm Subhadeep Chowdhury
 
-### 🚀 Full-Stack Developer | Mobile App Enthusiast | IoT Innovator
+### 🚀 Software Developer | Entrepreneur | Tech Enthusiast
 
 I'm a passionate developer with expertise in building scalable applications across web, mobile, and IoT platforms. I love creating innovative solutions that solve real-world problems and exploring cutting-edge technologies.
 
