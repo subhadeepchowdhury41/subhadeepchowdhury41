@@ -76,6 +76,7 @@ We-Share is a social media backend built with TypeScript, Apollo GraphQL, and Ne
 - Operations such as following a user, posting a tweet, or liking content are handled through GraphQL mutations, while queries allow fetching user timelines, tweets, and relationship data.
 
 **Tech Stack:** TypeScript, Apollo GraphQL, Neo4j
+
 ---
 
 ## 🌐 Connect With Me
