@@ -8,30 +8,74 @@ I'm a passionate developer with expertise in building scalable applications acro
 
 ## 🔥 Featured Projects
 
-### 📱 [Awesome Notes App](https://github.com/subhadeepchowdhury41/awesome-notes-app)
+### 📝 [Awesome Notes App](https://github.com/subhadeepchowdhury41/awesome-notes-app)
 A feature-rich Flutter mobile application for note-taking with rich text formatting
-- **Tech Stack:** Flutter, Dart, JWT Authentication
-- **Features:** Cross-platform (iOS/Android), Secure authentication, Rich text editing
-- **Highlights:** Clean architecture, responsive design, robust security
 
-### 🚁 [Arduino Drone Controller](https://github.com/subhadeepchowdhury41/arduino-drone)
+**Features:**
+- **Cross-platform:** Works on both iOS and Android.
+- **Secure Authentication:** JWT-based login and registration.
+- **Rich Text Editing:** Create, format, and manage notes with ease.
+
+**How it Works:**
+- Users register and log in securely using JWT authentication.
+- Notes are stored locally or synced via cloud (if integrated).
+- The app provides a rich text editor for creating and formatting notes.
+- Users can organize, search, and manage notes efficiently through the UI.
+
+**Tech Stack:** Flutter, Dart, JWT Authentication
+
+---
+
+### 🛩️ [Arduinio Drone Controller](https://github.com/subhadeepchowdhury41/arduino-drone)
 Custom drone flight controller with advanced IMU and PID control systems
-- **Tech Stack:** Arduino, C++, WebSocket, IMU Sensors
-- **Features:** High-performance PID loops, Low-latency communication, Custom flight controller
-- **Highlights:** Real-time data processing, Secure wireless communication
+
+**Features:**
+- **Advanced IMU Integration:** Real-time sensor fusion for accurate flight.
+- **Custom PID Control:** Smooth and stable flight dynamics.
+- **Wireless Communication:** Low-latency command and telemetry.
+
+**How it Works:**
+- The Arduino board interfaces with IMU sensors to gather real-time orientation data.
+- Custom PID algorithms process sensor data to stabilize and control the drone’s motors.
+- Commands can be sent wirelessly via WebSocket, and telemetry is streamed back to the controller.
+- The system ensures responsive and secure communication for reliable flight.
+
+**Tech Stack:** Arduino, C++, WebSocket, IMU Sensors
+
+---
 
 ### 📝 [Smart Blogz](https://github.com/subhadeepchowdhury41/smart-blogz)
 Modern blog platform with intuitive content management
-- **Tech Stack:** Angular.js, NestJS, TypeScript
-- **Features:** Dynamic content management, Responsive UI, RESTful APIs
-- **Highlights:** Modern architecture, Scalable backend
 
-### ✅ [Smart To-Do Tracker](https://github.com/subhadeepchowdhury41/to-do)
-Comprehensive task management application for daily and weekly planning
-- **Tech Stack:** React.js, Redux.js, Node.js, PostgreSQL, TypeORM, MUI
-- **Features:** Task scheduling, Progress tracking, Responsive design
-- **Highlights:** State management with Redux, Database optimization
+**Features:**
+- **Dynamic Content:** Create and manage blog posts easily.
+- **Responsive UI:** Seamless experience across devices.
+- **RESTful APIs:** Powerful endpoints for data access and manipulation.
 
+**How it Works:**
+- Users register and log in to create, edit, and manage blog posts.
+- The frontend (Angular.js) interacts with the backend (NestJS) via RESTful APIs.
+- All blog content is dynamically rendered and managed through a user-friendly dashboard.
+- Backend handles authentication, data validation, and post management.
+
+**Tech Stack:** Angular.js, NestJS, TypeScript
+
+---
+
+### 📩 [We-Share](https://github.com/subhadeepchowdhury41/we-share)
+We-Share is a social media backend built with TypeScript, Apollo GraphQL, and Neo4j. It provides core social networking features such as following/unfollowing users, Tweeting, and liking/unliking content.
+
+**Features:**
+- **Follow/Unfollow:** Easily manage social connections between users.
+- **Tweet:** Users can post short messages.
+- **Like/Unlike:** Engage with posts by liking or unliking.
+
+**How it Works:**
+- The backend exposes a GraphQL API, accessible at: [https://we-share-api.onrender.com/graphql](https://we-share-api.onrender.com/graphql).
+- Data is modeled and stored in Neo4j, making relationship queries fast and flexible.
+- Operations such as following a user, posting a tweet, or liking content are handled through GraphQL mutations, while queries allow fetching user timelines, tweets, and relationship data.
+
+**Tech Stack:** TypeScript, Apollo GraphQL, Neo4j
 ---
 
 ## 🌐 Connect With Me
